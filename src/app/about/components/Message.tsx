@@ -13,7 +13,7 @@ export default function Message () {
         Como CEO, Alejandro Ponce, estoy convencido de que nunca alcanzaremos una meta final en nuestro camino hacia la sostenibilidad. La búsqueda constante de un negocio más sostenible nos impulsa a ofrecer un café cada vez más ecológico, a reducir los residuos, a fortalecer nuestras relaciones y a encontrar soluciones duraderas a los desafíos que se presenten. Este compromiso con la sostenibilidad nos permite ser una mejor empresa hoy y nos promete que seremos aún mejores mañana.
       </p>
       <div>
-        <img src="images/signature.png" alt="CEO's Signature" className="w-1/4 "/>
+        <img src="images/drawings/signature.png" alt="CEO's Signature" className="w-1/4 "/>
         <hr className="bg-black w-1/4"/>
         <p className="font-light text-xl">Alejandro Ponce</p>
         <p className="font-light text-xl">CEO</p>

@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import Announcement from "@/components/ui/Announcement";
 import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/Footer";
+import { CartProvider } from "@/context/CartContext";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -24,10 +25,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={poppins.variable}>
       <body className="font-poppins">
+        <CartProvider>
         <Announcement/>
         <Header />
         {children}
         <Footer/>
+        </CartProvider>
       </body>
     </html>
   );

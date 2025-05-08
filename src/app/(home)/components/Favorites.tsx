@@ -5,7 +5,7 @@ export default function Favorites () {
       <div className="flex flex-col items-center justify-center border w-full text-center">
         <div className="bg-[#A9AE36] flex items-center justify-center w-full">
           <img
-            src="images/tasters-choice.png"
+            src="images/product-images/tasters-choice.png"
             alt="Taster's Choice"
             className="w-1/2"
           />
@@ -34,7 +34,7 @@ export default function Favorites () {
       <div className="flex flex-col items-center justify-center border w-full text-center">
         <div className="bg-[#A893DE] flex items-center justify-center w-full">
           <img
-            src="images/juan-valdez-sierra-nevada.png"
+            src="images/product-images/juan-valdez-sierra-nevada.png"
             alt="Juan Valdez Sierra Nevada"
             className="w-1/2"
           />
@@ -63,7 +63,7 @@ export default function Favorites () {
       <div className="flex flex-col items-center justify-center border w-full text-center">
         <div className="bg-[#A1CAF1] flex items-center justify-center w-full">
           <img
-            src="images/café-garat-molido.png"
+            src="images/product-images/cafe-garat-molido.png"
             alt="Café Garat Gourmet"
             className="w-1/2"
           />
@@ -90,7 +90,7 @@ export default function Favorites () {
       <div className="flex flex-col items-center justify-center border w-full text-center">
         <div className="bg-[#D8C3B1] flex items-center justify-center w-full">
           <img
-            src="images/garat-avellana.png"
+            src="images/product-images/garat-avellana.png"
             alt="Café Garat Avellana"
             className="w-1/2"
           />

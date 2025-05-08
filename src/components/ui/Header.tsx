@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react';
+import CartDrawer from '../CartDrawer';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,18 +49,16 @@ export default function Header() {
                 md:items-center md:space-x-8 mt-2 md:mt-0
                 text-white`}
         >
+          <a href="/shop" className="block py-2 px-3 rounded-sm hover:bg-[#1414B8] md:hover:bg-transparent md:hover:text-gray-300">
+            Tienda
+          </a>
           <a href="/about" className="block py-2 px-3 rounded-sm hover:bg-[#1414B8] md:hover:bg-transparent md:hover:text-gray-300">
             Nosotros
-          </a>
-          <a href="#contact" className="block py-2 px-3 rounded-sm hover:bg-[#1414B8] md:hover:bg-transparent md:hover:text-gray-300">
-            Contáctanos
-          </a>
-          <a href="/#favorites-section" className="block py-2 px-3 rounded-sm hover:bg-[#1414B8] md:hover:bg-transparent md:hover:text-gray-300">
-            Productos Favoritos
           </a>
           <a href="/#subscription" className="block py-2 px-3 rounded-sm hover:bg-[#1414B8] md:hover:bg-transparent md:hover:text-gray-300">
             Subscripciones
           </a>
+          <CartDrawer/>
         </div>
       </div>
     </nav>

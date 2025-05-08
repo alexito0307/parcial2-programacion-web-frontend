@@ -1,8 +1,5 @@
-import Hero from "./components/Hero";
-import Notices from "./components/Notices";
-import FavoritesBanner from "./components/FavoritesBanner";
-import Favorites from "./components/Favorites";
-import Subscription from "./components/Subscription";
+import { Hero, Notices, FavoritesBanner, Favorites, Subscription } from './components';
+
 export default function Home() {
   return (
     <main>

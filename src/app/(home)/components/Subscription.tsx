@@ -52,22 +52,22 @@ export default function Subscription () {
           <div className="flex animate-scroll">
             {[
               {
-                img: 'coffee-beans-drawing.webp',
+                img: 'drawings/coffee-beans-drawing.webp',
                 alt: 'Coffee Beans Drawing',
                 text: 'Cambia tu café cuando sea',
               },
               {
-                img: 'calendar.png',
+                img: 'drawings/calendar.png',
                 alt: 'Calendar',
                 text: 'Cambia el tiempo y fechas de envío',
               },
               {
-                img: 'x.png',
+                img: 'drawings/x.png',
                 alt: 'X Mark',
                 text: 'Cancela en cualquier momento',
               },
               {
-                img: 'truck.png',
+                img: 'drawings/truck.png',
                 alt: 'Truck',
                 text: 'Envio gratis arriba de 600 MXN',
               },
@@ -87,22 +87,22 @@ export default function Subscription () {
               .map((_, idx) => {
                 const slide = [
                   {
-                    img: 'coffee-beans-drawing.webp',
+                    img: 'drawings/coffee-beans-drawing.webp',
                     alt: 'Coffee Beans Drawing',
                     text: 'Cambia tu café cuando sea',
                   },
                   {
-                    img: 'calendar.png',
+                    img: 'drawings/calendar.png',
                     alt: 'Calendar',
                     text: 'Cambia el tiempo y fechas de envío',
                   },
                   {
-                    img: 'x.png',
+                    img: 'drawings/x.png',
                     alt: 'X Mark',
                     text: 'Cancela en cualquier momento',
                   },
                   {
-                    img: 'truck.png',
+                    img: 'drawings/truck.png',
                     alt: 'Truck',
                     text: 'Envio gratis arriba de 600 MXN',
                   },

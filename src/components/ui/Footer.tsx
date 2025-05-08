@@ -25,10 +25,10 @@ export default function Footer () {
               </form>
               <div className="flex items-center justify-center lg:justify-start w-full mt-15 space-x-5">
                 {[
-                  { src: 'instagram-logo.webp', alt: 'Instagram Logo' },
-                  { src: 'facebook-logo.webp',  alt: 'Facebook Logo'  },
-                  { src: 'twitter-logo.webp',   alt: 'Twitter Logo'   },
-                  { src: 'youtube-logo.webp',   alt: 'YouTube Logo'   },
+                  { src: 'social-media/instagram-logo.webp', alt: 'Instagram Logo' },
+                  { src: 'social-media/facebook-logo.webp',  alt: 'Facebook Logo'  },
+                  { src: 'social-media/twitter-logo.webp',   alt: 'Twitter Logo'   },
+                  { src: 'social-media/youtube-logo.webp',   alt: 'YouTube Logo'   },
                 ].map((icon) => (
                   <img
                     key={icon.alt}

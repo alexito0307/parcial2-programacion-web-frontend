@@ -38,7 +38,7 @@ export default function Hero() {
       </div>
 
       <img
-        src="/images/coffee-splitter.png"
+        src="/images/drawings/coffee-splitter.png"
         alt="coffee splitter"
         className="absolute bottom-0 -right-20 w-xl lg:block hidden"
       />
