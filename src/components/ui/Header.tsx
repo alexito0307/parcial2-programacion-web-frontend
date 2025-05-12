@@ -55,8 +55,8 @@ export default function Header() {
           <a href="/about" className="block py-2 px-3 rounded-sm hover:bg-[#1414B8] md:hover:bg-transparent md:hover:text-gray-300">
             Nosotros
           </a>
-          <a href="/#subscription" className="block py-2 px-3 rounded-sm hover:bg-[#1414B8] md:hover:bg-transparent md:hover:text-gray-300">
-            Subscripciones
+          <a href="/orders" className="block py-2 px-3 rounded-sm hover:bg-[#1414B8] md:hover:bg-transparent md:hover:text-gray-300">
+            Pedidos
           </a>
           <CartDrawer/>
         </div>

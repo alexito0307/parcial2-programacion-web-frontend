@@ -25,9 +25,11 @@ export default function Favorites () {
           alt="4 Star Rating"
           className="w-1/4"
         />
-        <button className="shadow-button mb-8 font-bold" role="button">
-          COMPRAR
-        </button>
+        <a href="/shop" className="justify-center items-center flex w-80">
+          <button className="shadow-button mb-8 font-bold" role="button">
+            COMPRAR
+          </button>
+        </a>
       </div>
 
       {/* Juan Valdez Sierra Nevada */}
@@ -54,9 +56,11 @@ export default function Favorites () {
           alt="5 Star Rating"
           className="w-1/4"
         />
-        <button className="shadow-button mb-8 font-bold" role="button">
-          COMPRAR
-        </button>
+        <a href="/shop" className="justify-center items-center flex w-80">
+          <button className="shadow-button mb-8 font-bold" role="button">
+            COMPRAR
+          </button>
+        </a>
       </div>
 
       {/* Café Garat Gourmet */}
@@ -81,9 +85,11 @@ export default function Favorites () {
           alt="5 Star Rating"
           className="w-1/4"
         />
-        <button className="shadow-button mb-8 font-bold" role="button">
-          COMPRAR
-        </button>
+        <a href="/shop" className="justify-center items-center flex w-80">
+          <button className="shadow-button mb-8 font-bold" role="button">
+            COMPRAR
+          </button>
+        </a>
       </div>
 
       {/* Café Garat Avellana */}
@@ -108,9 +114,11 @@ export default function Favorites () {
           alt="5 Star Rating"
           className="w-1/4"
         />
-        <button className="shadow-button mb-8 font-bold" role="button">
-          COMPRAR
-        </button>
+        <a href="/shop" className="justify-center items-center flex w-80">
+          <button className="shadow-button mb-8 font-bold" role="button">
+            COMPRAR
+          </button>
+        </a>
       </div>
     </section>
   );

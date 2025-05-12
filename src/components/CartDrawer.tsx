@@ -56,12 +56,15 @@ export default function CartDrawer() {
             <span>Subtotal</span>
             <span>${subtotal.toFixed(2)}</span>
           </div>
-          <button
-            disabled={state.items.length === 0}
-            className="w-full bg-black text-white py-3 rounded disabled:opacity-40"
-          >
-            CHECKOUT
-          </button>
+          <a href="/checkout" className="cursor-pointer">
+            <button
+              disabled={state.items.length === 0}
+              className="w-full bg-black text-white py-3 rounded disabled:opacity-40 cursor-pointer"
+              role="button"
+            >
+              CHECKOUT
+            </button>
+          </a>
         </div>
       </SheetContent>
     </Sheet>

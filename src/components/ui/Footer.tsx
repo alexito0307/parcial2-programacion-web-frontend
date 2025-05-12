@@ -1,3 +1,6 @@
+"use client";
+import React, { useState } from 'react';
+
 export default function Footer () {
   return (
       <footer className="bg-[#000F8F] w-full p-8 lg:pl-20 lg:pr-20 text-white">
@@ -44,15 +47,15 @@ export default function Footer () {
           {/* Link Sections */}
           <div className="flex flex-col mt-10 text-center lg:text-left text-white">
             <span className="font-bold mb-2">TIENDA</span>
-            <a href="#">Café</a>
-            <a href="#">Subscripciones</a>
-            <a href="#">Subscripciones Regaladas</a>
+            <a href="/shop">Café</a>
+            <a href="#subscription">Subscripciones</a>
+            <a href="#subscription">Subscripciones Regaladas</a>
           </div>
     
           <div className="flex flex-col mt-10 text-center lg:text-left text-white">
             <span className="font-bold mb-2">NOSOTROS</span>
-            <a href="#">Nosotros</a>
-            <a href="#">Blog</a>
+            <a href="/about">Nosotros</a>
+            <a href="/about">Blog</a>
             <a href="#">Centros de Entrenamiento</a>
             <a href="#">Reportes de Transparencia</a>
             <a href="#">Carreras</a>
