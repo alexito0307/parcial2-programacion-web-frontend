@@ -56,10 +56,10 @@ export default function Footer () {
             <span className="font-bold mb-2">NOSOTROS</span>
             <a href="/about">Nosotros</a>
             <a href="/about">Blog</a>
-            <a href="#">Centros de Entrenamiento</a>
-            <a href="#">Reportes de Transparencia</a>
-            <a href="#">Carreras</a>
-            <a href="#">Eventos</a>
+            <a href="/workinprogress">Centros de Entrenamiento</a>
+            <a href="/workinprogress">Reportes de Transparencia</a>
+            <a href="/workinprogress">Carreras</a>
+            <a href="/workinprogress">Eventos</a>
           </div>
     
           <div id="contact" className="flex flex-col mt-10 text-center lg:text-left text-white">
@@ -70,9 +70,9 @@ export default function Footer () {
     
           <div className="flex flex-col mt-10 text-center lg:text-left text-white">
             <span className="font-bold mb-2">MAYOREO</span>
-            <a href="#">Login Empresas</a>
-            <a href="#">Regalos Corporativos</a>
-            <a href="#">Convertirse en Socio</a>
+            <a href="/workinprogress">Login Empresas</a>
+            <a href="/workinprogress">Regalos Corporativos</a>
+            <a href="/workinprogress">Convertirse en Socio</a>
           </div>
         </div>
     
